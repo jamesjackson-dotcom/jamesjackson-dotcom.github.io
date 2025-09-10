@@ -21,7 +21,7 @@ $(function () {
     createPlatform(-50, canvas.height - 10, canvas.width + 100, 200, "navy"); // bottom wall
     createPlatform(-50, -50, 50, canvas.height + 500); // left wall
     createPlatform(canvas.width, -50, 50, canvas.height + 100); // right wall
-
+// adding comment to check push requirements
     //////////////////////////////////
     // ONLY CHANGE BELOW THIS POINT //
     //////////////////////////////////
@@ -31,16 +31,33 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
+    createPlatform(700, 700, 400, 20, "#ffffffff")
+    createPlatform(400, 590, 400, 20, "#ffffffff")
+    createPlatform(300, 470, 300, 20, "#ffffffff")
+    createPlatform(700, 400, 400, 20, "#ffffffff")
+    createPlatform(1000, 300, 400, 20, "#ffffffff")
+    createPlatform(700, 170, 400, 20, "#ffffffff")
+
+
+
 
 
 
 
     // TODO 3 - Create Collectables
+    createCollectable("diamond", 320, 430, )
+    createCollectable("database", 1300, 250)
+    createCollectable("steve", 750, 130)
+
 
 
 
     
     // TODO 4 - Create Cannons
+    createCannon("top", 1200, 2000)
+    createCannon("top", 400, 1700)
+    createCannon("right", 600, 2000)
+
 
 
     
