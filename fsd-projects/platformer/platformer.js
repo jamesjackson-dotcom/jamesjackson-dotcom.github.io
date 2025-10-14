@@ -27,8 +27,8 @@ $(function () {
     //////////////////////////////////
 
     // TODO 1 - Enable the Grid
-    // toggleGrid();
-
+     //toggleGrid();
+//I disabled the grid because it makes the game laggy
 
     // TODO 2 - Create Platforms
     createPlatform(700, 700, 400, 20, "#ffffffff")

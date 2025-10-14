@@ -2,7 +2,7 @@ body {
     background: rgb(23, 26, 75);
     color: rgb(45, 45, 45);
     padding: 10px;
-    font-family: Arial, sans-serif;
+    font-family: verdana, sans-serif;
 }
 
 #all-contents {
@@ -41,7 +41,8 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
+    
 }
 
 /* main container area beneath menu */
@@ -77,7 +78,7 @@ h2, h3 {
 }
 /* Portfolio styles */
 .content h1 {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 #portfolio {
